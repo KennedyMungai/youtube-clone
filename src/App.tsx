@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Search from './pages/Search';
+import Watch from './pages/Watch';
 
 
 function App()
@@ -11,6 +12,7 @@ function App()
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/search' element={<Search />} />
+        <Route path='/watch' element={<Watch />} />
       </Routes>
     </Router>
   )
