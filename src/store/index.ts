@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { configureStore, createSlice } from "@reduxjs/toolkit";
 import { InitialState } from "../Types";
 
 const initialState: InitialState = {
@@ -19,4 +19,10 @@ const YoutubeSlice = createSlice({
     {
 
     })
+})
+
+export const store = configureStore({
+    reducer: {
+        youtubeApp: YoutubeSlice.reducer
+    }
 })
