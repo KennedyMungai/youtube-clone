@@ -44,6 +44,9 @@ const Navbar = () =>
                         </button>
                     </div>
                 </form>
+                <div className="text-xl p-3 bg-zinc-900 rounded-full">
+                    <TiMicrophone />
+                </div>
             </div>
         </div>
     )
