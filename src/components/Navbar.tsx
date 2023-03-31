@@ -3,6 +3,7 @@ import { TiMicrophone } from 'react-icons/ti'
 import { BsYoutube, BsCameraVideo, BsBell } from 'react-icons/bs'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { IoAppsSharp } from 'react-icons/io5'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () =>
@@ -13,6 +14,14 @@ const Navbar = () =>
                 <div className="">
                     <GiHamburgerMenu />
                 </div>
+                <Link to='/'>
+                    <div className="flex gap-1 items-center justify-center">
+                        <BsYoutube
+                            className='text-3xl text-red-600'
+                        />
+                        <span className="text-xl font-medium">YouTube</span>
+                    </div>
+                </Link>
             </div>
         </div>
     )
