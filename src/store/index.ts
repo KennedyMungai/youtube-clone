@@ -1,3 +1,4 @@
+import { createSlice } from "@reduxjs/toolkit";
 import { InitialState } from "../Types";
 
 const initialState: InitialState = {
@@ -8,3 +9,14 @@ const initialState: InitialState = {
     nextPageToken: null,
     recommendedVideos: []
 }
+
+
+const YoutubeSlice = createSlice({
+    name: "youtubeApp",
+    initialState,
+    reducers: {},
+    extraReducers: (builder => 
+    {
+
+    })
+})
