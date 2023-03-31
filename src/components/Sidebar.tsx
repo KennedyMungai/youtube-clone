@@ -206,6 +206,18 @@ const Sidebar = () =>
                     )
                 })}
             </ul>
+            <ul className="flex gap-2 flex-wrap text-sm p-4 text-zinc-400">
+                {textLinks[0].map((name) => 
+                {
+                    return <li key={name}>{name}</li>
+                })}
+            </ul>
+            <ul className="flex gap-2 flex-wrap text-sm p-4 text-zinc-400">
+                {textLinks[1].map((name) => 
+                {
+                    return <li key={name}>{name}</li>
+                })}
+            </ul>
         </div>
     )
 }
