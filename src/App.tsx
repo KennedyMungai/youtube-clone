@@ -3,9 +3,7 @@ import React from 'react';
 function App()
 {
   return (
-    <div className="">
-      <h1>Chickenwings Are The Best</h1>
-    </div>
+    <h1 className="text-3xl font-bold underline">Hello World</h1>
   );
 }
 
