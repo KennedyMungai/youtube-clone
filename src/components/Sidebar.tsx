@@ -122,7 +122,19 @@ const Sidebar = () =>
 
     return (
         <div className="w-2/12 bg-[#212121] pr-5 overflow-auto pb-8 sidebar">
+            <ul className="flex flex-col border-b-2 bg-gray-700">
+                {mainLinks.map(({ icon, name }) => 
+                {
+                    return (
+                        <li
+                            key={name}
+                            className={`pl-6 py-3 hover:bg-zinc-600 ${name === "Home" ? "bg-slate-600" : ""}`}
+                        >
 
+                        </li>
+                    )
+                })}
+            </ul>
         </div>
     )
 }
