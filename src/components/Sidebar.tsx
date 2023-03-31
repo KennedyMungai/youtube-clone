@@ -121,7 +121,9 @@ const Sidebar = () =>
     ];
 
     return (
-        <div>Sidebar</div>
+        <div className="w-2/12 bg-[#212121] pr-5 overflow-auto pb-8 sidebar">
+
+        </div>
     )
 }
 
