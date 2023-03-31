@@ -21,4 +21,6 @@ export const getHomePageVideos = createAsyncThunk("youtubeApp/HomePageVideos", a
             nextPageToken
         }
     } = await axios.get(`${YOUTUBE_API_URL}/search?maxResults=20&q="mayores"&key=${API_KEY}&part=snippet&type=video`)
+
+    console.log(items)
 })
