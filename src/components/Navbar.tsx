@@ -37,6 +37,11 @@ const Navbar = () =>
                                 className='text-xl cursor-pointer'
                             />
                         </div>
+                        <button className="h-10 w-16 flex items-center justify-center bg-zinc-800">
+                            <AiOutlineSearch
+                                className='text-xl'
+                            />
+                        </button>
                     </div>
                 </form>
             </div>
