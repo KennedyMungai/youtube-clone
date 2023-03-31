@@ -6,7 +6,7 @@ type Props = {}
 const Home = (props: Props) =>
 {
     return (
-        <div>
+        <div className='max-h-screen overflow-hidden'>
             <Navbar />
         </div>
     )
