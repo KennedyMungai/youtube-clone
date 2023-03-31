@@ -8,7 +8,9 @@ import { IoAppsSharp } from 'react-icons/io5'
 const Navbar = () =>
 {
     return (
-        <div>Navbar</div>
+        <div className="flex justify-between items-center px-14 h-14 bg-[#212121] opacity-95 sticky top-0 z-50">
+
+        </div>
     )
 }
 
