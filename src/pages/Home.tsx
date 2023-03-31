@@ -7,7 +7,9 @@ const Home = (props: Props) =>
 {
     return (
         <div className='max-h-screen overflow-hidden'>
-            <Navbar />
+            <div style={{ height: "7.5vh" }}>
+                <Navbar />
+            </div>
         </div>
     )
 }
