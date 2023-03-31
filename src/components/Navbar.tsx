@@ -57,7 +57,11 @@ const Navbar = () =>
                         9+
                     </span>
                 </div>
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yp-0hIAeYQUnPFigJRgdXgAAAA%26pid%3DApi&f=1&ipt=81da601b301fec8280aa5f269797be8336aa4fea4f9433ed12f5e8ba530684c4&ipo=images" alt="The account image" />
+                <img
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.yp-0hIAeYQUnPFigJRgdXgAAAA%26pid%3DApi&f=1&ipt=81da601b301fec8280aa5f269797be8336aa4fea4f9433ed12f5e8ba530684c4&ipo=images"
+                    alt="The account image"
+                    className="w-9 h-9 rounded-full"
+                />
             </div>
         </div>
     )
