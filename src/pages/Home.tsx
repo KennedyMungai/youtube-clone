@@ -13,7 +13,7 @@ const Home = () =>
     useEffect(() =>
     {
         dispatch(getHomePageVideos(false))
-    }, [])
+    }, [dispatch])
 
 
     return (
