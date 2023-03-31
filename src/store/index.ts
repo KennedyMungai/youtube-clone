@@ -26,3 +26,5 @@ export const store = configureStore({
         youtubeApp: YoutubeSlice.reducer
     }
 })
+
+export type RootState = ReturnType<typeof store.getState>
