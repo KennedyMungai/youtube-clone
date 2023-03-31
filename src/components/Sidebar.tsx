@@ -221,6 +221,10 @@ const Sidebar = () =>
             <span className="px-4 text-sm text-zinc-400">
                 &copy; 2023 Youtube Bitches Edition
             </span>
+            <br />
+            <p className="px-4 pt-3 text-sm text-zinc-400">
+                This clone is for educational purposes. And Bitches!!!
+            </p>
         </div>
     )
 }
