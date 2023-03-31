@@ -130,7 +130,15 @@ const Sidebar = () =>
                             key={name}
                             className={`pl-6 py-3 hover:bg-zinc-600 ${name === "Home" ? "bg-slate-600" : ""}`}
                         >
-
+                            <a
+                                href="#"
+                                className="flex items-center gap-5"
+                            >
+                                {icon}
+                                <span className="text-sm tracking-wider">
+                                    {name}
+                                </span>
+                            </a>
                         </li>
                     )
                 })}
