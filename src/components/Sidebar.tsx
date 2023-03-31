@@ -218,6 +218,9 @@ const Sidebar = () =>
                     return <li key={name}>{name}</li>
                 })}
             </ul>
+            <span className="px-4 text-sm text-zinc-400">
+                &copy; 2023 Youtube Bitches Edition
+            </span>
         </div>
     )
 }
