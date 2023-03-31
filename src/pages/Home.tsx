@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
+import { useAppDispatch } from '../store/hooks'
 
-type Props = {}
 
-const Home = (props: Props) =>
+const Home = () =>
 {
+    const dispatch = useAppDispatch()
+
     return (
         <div className='max-h-screen overflow-hidden'>
             <div style={{ height: "7.5vh" }}>
