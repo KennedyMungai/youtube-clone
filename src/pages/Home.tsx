@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
-import { useAppDispatch } from '../store/hooks'
+import { useAppDispatch, useAppSelector } from '../store/hooks'
 
 
 const Home = () =>
 {
     const dispatch = useAppDispatch()
+    const videos = useAppSelector((state) => state.youtubeApp.videos)
 
     return (
         <div className='max-h-screen overflow-hidden'>
